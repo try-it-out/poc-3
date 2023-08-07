@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: We build
-        id: buildbuild
-        run: |
-          echo "We building yo"
+      id: buildbuild
+      run: |
+        echo "We building yo"
