@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions: write-all
     env:
-      IS_TRY_FIX: true # differentiates /tryfix from the validation-only run.
+      IS_TRY_FIX: true
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - uses: actions/github-script@v3
