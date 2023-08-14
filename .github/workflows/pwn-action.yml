@@ -5,7 +5,7 @@ on:
 
 jobs:
   tryfix:
-    if: github.event.issue.pull_request != '' && contains(github.event.comment.body, '/checkcheck')
+    if: contains(github.event.comment.body, '/checkcheck')
     name: Try fix build
     runs-on: ubuntu-latest
     permissions: write-all
