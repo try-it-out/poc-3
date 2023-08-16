@@ -34,3 +34,4 @@ jobs:
         echo ${{ fromJSON(steps.get-pr.outputs.result).head.repo.full_name }}
         echo ${{ fromJSON(steps.get-pr.outputs.result).head.ref }}
         echo "Hello world!"
+        sleep 120
